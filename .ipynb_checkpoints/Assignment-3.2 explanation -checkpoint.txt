@@ -1,0 +1,13 @@
+Explanation of best choosen parameter
+
+1. Adaptive mean thresholding
+>>> The background is almost removed
+>>> The edge is clear 
+>>> The berry is almost black except some region (around 15%) 
+>>> the stick of the berry is bit clear 
+
+1. Adaptive Gaussian thresholding
+>>> The background is almost removed and better than Adaptive mean thresholding
+>>> The edge and contour is clear around 5% contour is connected with noise which is left side on the image
+>>> Although around 25% is white but it is inside the berry not affect the contour part 
+>>> Finally, the stick of the berry is bit clear 
